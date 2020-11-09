@@ -67,6 +67,11 @@ impl From<RegisteredSealProof> for fil_RegisteredSealProof {
             RegisteredSealProof::StackedDrg512MiBV1 => fil_RegisteredSealProof::StackedDrg512MiBV1,
             RegisteredSealProof::StackedDrg32GiBV1 => fil_RegisteredSealProof::StackedDrg32GiBV1,
             RegisteredSealProof::StackedDrg64GiBV1 => fil_RegisteredSealProof::StackedDrg64GiBV1,
+            RegisteredSealProof::StackedDrg2KiBV1_1 => fil_RegisteredSealProof::StackedDrg2KiBV1,
+            RegisteredSealProof::StackedDrg8MiBV1_1 => fil_RegisteredSealProof::StackedDrg8MiBV1,
+            RegisteredSealProof::StackedDrg512MiBV1_1 => fil_RegisteredSealProof::StackedDrg512MiBV1,
+            RegisteredSealProof::StackedDrg32GiBV1_1 => fil_RegisteredSealProof::StackedDrg32GiBV1,
+            RegisteredSealProof::StackedDrg64GiBV1_1 => fil_RegisteredSealProof::StackedDrg64GiBV1,
         }
     }
 }
