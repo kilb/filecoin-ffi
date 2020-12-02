@@ -33,7 +33,7 @@ bellperson = { version = "0.12.0", default-features = false, features = ["gpu"] 
 serde_json = "1.0.46"
 rust-gpu-tools = "0.2.0"
 
-filecoin-proofs-api = { git = "ssh://git@39.106.82.84/ke/rust-filecoin-proofs-api.git", rev="301bda10", default-features = false}
+filecoin-proofs-api = { git = "ssh://git@39.106.82.84/ke/rust-filecoin-proofs-api.git", rev="978dc199", default-features = false}
 
 [build-dependencies]
 cbindgen = "= 0.14.0"
